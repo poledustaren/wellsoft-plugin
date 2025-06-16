@@ -1,0 +1,32 @@
+{
+  "url": "/plugins/com.example.channelselector/submit",
+  "dialog": {
+    "callback_id": "forward_message_m375cfgt77bu9kuqza67pitroy",
+    "title": "Переслать сообщение",
+    "introduction_text": "Выберите получателя для пересылки сообщения",
+    "elements": [
+      {
+        "display_name": "Получатель",
+        "name": "recipient",
+        "type": "select",
+        "placeholder": "Начните вводить имя пользователя или канала...",
+        "options": [
+          {
+            "text": "👤 dustaren (@dustaren)",
+            "value": "user:eq1y6tqr4iy5xj6dxizjs77bna"
+          },
+          {
+            "text": "📢 Off-Topic",
+            "value": "channel:zdoycd31m7gbuygj8b5utcq4hr"
+          },
+          {
+            "text": "📢 Town Square",
+            "value": "channel:e45qzi6cif88tcfrcw3mfgqrzo"
+          }
+        ]
+      }
+    ],
+    "submit_label": "Переслать",
+    "notify_on_cancel": false
+  }
+}

@@ -1,0 +1,13 @@
+.dark-theme .telegram-message-block.incoming {
+    background: #2f3e4e;
+    color: #dddddd;
+}
+
+.dark-theme .telegram-message-block.outgoing {
+    background: #4a5664;
+    color: #ffffff;
+}
+
+.dark-theme .telegram-message-separator {
+    background: #525252;
+}
